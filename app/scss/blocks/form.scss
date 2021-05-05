@@ -13,6 +13,12 @@
     form {
         margin-top: 50px;
     }
+    .order-btn {
+        &:hover {
+            border: 1px solid $primaryColor;
+            color: $primaryColor;
+        }
+    }
 }
 .form-group {
     position: relative;
@@ -26,7 +32,7 @@
         &:focus {
             outline: none;
             box-shadow: none;
-            border: 1px solid $secondaryColor;
+            border: 1px solid $primaryColor;
         }
     }
     .focus-border {
