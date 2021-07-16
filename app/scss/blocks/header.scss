@@ -38,6 +38,10 @@
     width: 100%;
     transition: 0.3s;
     z-index: 9;
+    .order-btn:hover {
+        color: $primaryColor;
+        border-color: $primaryColor;
+    }
 }
 .navbar-brand {
     width: 80px;
@@ -83,7 +87,7 @@
         background: #fff;
         transition: 0.3s;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        padding: 10px 20px;
+        padding: 10px 20px 20px 20px;
     }
     .navbar-brand {
         svg {
