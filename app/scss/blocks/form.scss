@@ -19,6 +19,9 @@
             color: $primaryColor;
         }
     }
+    textarea {
+        resize: none;
+    }
 }
 .form-group {
     position: relative;
